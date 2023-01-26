@@ -4,3 +4,4 @@ import pandas
 
 
 st.title("Fake news")
+st.subtitle("Predict the news")
