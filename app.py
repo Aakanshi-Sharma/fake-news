@@ -4,17 +4,23 @@ import pickle as pkl
 import numpy as np
 import pandas
 
-# model=pkl.load()
-#
-# def stemming(text):
-#     text = text.lower()
-#     a = text.split(" ")
-#     p = []
-#     for i in a:
-#         i = "".join([j for j in i if j not in string.punctuation])
-#         if i not in string.punctuation and i not in stopingWords:
-#             p.append(ps.stem(i))
-#     return " ".join(p)
+model=pkl.load(open("model.pkl", "rb"))
+ps=pkl.load(open("portStem.pkl", "rb"))
+stopingWords=pkl.load(open("stoping.pkl", "rb"))
+vectorizer=pkl.load(open("vectorizer.pkl", "rb"))
+
+
+def stemming(text):
+    text = text.lower()
+    a = text.split(" ")
+    p = []
+    for i in a:
+        i = "".join([j for j in i if j not in string.punctuation])
+        if i not in string.punctuation and i not in stopingWords:
+            p.append(ps.stem(i))
+    return " ".join(p)
+
+
 
 
 # UI design

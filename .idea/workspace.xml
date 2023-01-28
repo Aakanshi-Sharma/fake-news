@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f962611-d905-470c-8b95-21cf5c4d6e89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fake news model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/fake news model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectorizer.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorizer.pkl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
