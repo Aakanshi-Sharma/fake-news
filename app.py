@@ -3,7 +3,7 @@ import string
 import time
 import pickle as pkl
 import numpy
-import pandas
+
 
 model = pkl.load(open("model.pkl", "rb"))
 ps = pkl.load(open("portStem.pkl", "rb"))
