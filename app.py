@@ -3,7 +3,7 @@ import string
 import time
 import pickle as pkl
 import numpy
-
+import nltk
 
 model = pkl.load(open("model.pkl", "rb"))
 ps = pkl.load(open("portStem.pkl", "rb"))
@@ -50,3 +50,4 @@ if clicked:
         st.snow()
     else:
         st.markdown(fake_news, unsafe_allow_html=True)
+g
