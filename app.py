@@ -50,4 +50,3 @@ if clicked:
         st.snow()
     else:
         st.markdown(fake_news, unsafe_allow_html=True)
-g
