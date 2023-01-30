@@ -1,4 +1,4 @@
-# fake-news
+# Fake-news-detection
 
 ## Overview
 An application that predict whether the given news is fake or real. So give a try and check whether your news is real or fake.
