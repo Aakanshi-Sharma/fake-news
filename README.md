@@ -15,3 +15,8 @@ An application that predict whether the given news is fake or real. So give a tr
 ## Website link
 
 Live link : https://aakanshi-sharma-fake-news-app-l5j6s5.streamlit.app/
+
+
+## Application 
+
+![Screenshot](https://user-images.githubusercontent.com/90981382/216064800-d4cea4e1-5c68-4e19-94b4-772b605fbbc3.png)
