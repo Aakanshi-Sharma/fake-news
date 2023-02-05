@@ -9,7 +9,7 @@ An application that predict whether the given news is fake or real. So give a tr
 • Removing stopwords and applying stemming\
 • Converting to vector\
 • Training the vector and model\
-• Building UI and connecting it with the model\
+• Building UI and connecting it with the model
 
 
 ## Website link
